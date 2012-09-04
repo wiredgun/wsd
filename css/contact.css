@@ -5,7 +5,7 @@ p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif; 
 	font-size: 16px; 
 	font-weight: normal; 
-	line-height: 20px; 
+	line-height: 24px; 
 	width: 640px;
 	margin: 0 auto; 
 	padding: 0; 
@@ -16,7 +16,7 @@ p {
 h2 {
 	font-family: Cooperplate, Times New Roman, serif;
 	font-size: 26px;
-	background-color: #a96d1e;
+	text-shadow: 2px 2px 2px #111;
 	line-height: .25em;
 	color: #fff;
 
@@ -29,10 +29,10 @@ h3 {
 
 }
 
-#nav, ul { 
-	background-color: #a96d1e;
+#nav, ol { 
+	background-color: #fda025;
 	opacity: .95;
-	line-height: 3.5em;
+	line-height: 1.5em;
 	font-size: 24px;
 	color: #fff;
 	clear: both; 
