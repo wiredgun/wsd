@@ -5,7 +5,7 @@ p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif; 
 	font-size: 16px; 
 	font-weight: normal; 
-	line-height: 24px; 
+	line-height: 22px; 
 	width: 640px;
 	margin: 0 auto; 
 	padding: 0; 
@@ -29,7 +29,7 @@ h3 {
 
 }
 
-#nav, ol { 
+#nav, ul { 
 	background-color: #fda025;
 	opacity: .95;
 	line-height: 2.5em;
