@@ -12,7 +12,7 @@ body {
 
 div {
 	width: 606px;
-	background-color: #fff;
+	background-color: #dcdce4;
 	border: 2px solid #a91e22;
 	padding: 15px;
 }
@@ -132,34 +132,35 @@ form {
 	margin: 25px
 }
 
-images ul {
-	border: solid 1px;
+#gallery {
+	background-color: #dcdce4;
 	list-style-type: none;
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 25px;
+	border: 2px solid #a91e22;
 }
 
-images li {
+#gallery li {
 	float: left;
 	margin-left: 25px;
 }
 
-images a {
+#gallery a {
 	border: 10px solid #aeaeae;
 	display: block;
 	outline: 0;
 }
 
-a:visited {
+#gallery a:visited {
 	border-color: purple;
 }
 
-a:hover {
+#gallery a:hover {
 	border-color: red;
 }
 
-a:active {
+#gallery a:active {
 	border-color: green;
 }
 
