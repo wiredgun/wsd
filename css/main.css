@@ -1,9 +1,9 @@
 body { 
 	color: #000; 
 	background-color: #e8d173;
-	font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif; 
-	font-size: 16px; 
-	font-weight: normal; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	font: normal; 
 	line-height: 22px; 
 	width: 640px;
 	margin: 0 auto; 
@@ -13,13 +13,12 @@ body {
 div {
 	width: 606px;
 	background-color: #dcdce4;
-	border: 2px solid #a91e22;
+	border: none;
 	padding: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Cooperplate, 'Times New Roman', serif;
-
 }
 
 h2 {
@@ -66,7 +65,7 @@ nav a {
 	text-decoration: none;
 	color: #fff;
 	line-height: 1.5em;
-	font-size: 22px;
+	font-size: 24px;
 	height: 30px;
 	display: block;
 }
@@ -81,6 +80,12 @@ nav a:hover {
 	margin-bottom: 10px;
 	background-color: transparent;
 	border: none;
+}
+
+#text {
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	font-size: 12px;
 }
 
 #food {
