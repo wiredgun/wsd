@@ -77,7 +77,7 @@ nav a:hover {
 #logo {
 	width: 180px;
 	float: right;
-	margin-bottom: 10px;
+	margin-bottom: none;
 	background-color: transparent;
 	border: none;
 }
