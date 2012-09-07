@@ -84,7 +84,6 @@ nav a:hover {
 
 #text {
 	-moz-column-count: 3;
-	-moz-column-gap: 25px;
 	font-size: 12px;
 }
 
@@ -125,12 +124,13 @@ ol {
 	background-color: #fda025;
 	width: 275px;
 	list-style-type: none;
-	padding: 5px;
+	padding: 10px;
 	line-height: 1.25em;
 	font-size: 18px;
 	color: #fff;
 	margin: 0 auto; 
 	border: 2px solid #a91e22;
+	border-radius: 9px;
 }
 
 form {
