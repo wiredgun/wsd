@@ -48,17 +48,17 @@ nav ul {
 	padding: .25em;
 	margin: 0; 
 	overflow: hidden;
-	width: 350px;
+	width: 20em;
 	float: left;
 }
 
 nav li {
 	float: left;
-	width: 100px;
+	width: 6em;
 }
 
 nav ul li:first-child {
-	margin-left: 15px;
+	margin-left: 1.25em;
 }
 
 nav a {
@@ -151,7 +151,7 @@ form {
 }
 
 #gallery a {
-	border: 10px solid #aeaeae;
+	border: 1.5em solid #aeaeae;
 	display: block;
 	outline: 0;
 }
