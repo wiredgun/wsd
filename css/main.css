@@ -2,16 +2,16 @@ body {
 	color: #000; 
 	background-color: #e8d173;
 	font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font: normal; 
-	line-height: 22px; 
-	width: 640px;
+	line-height: 1.2em; 
+	width: 45%;
 	margin: 0 auto; 
 	padding: 0; 
 }
 
 div {
-	width: 610px;
+	width: 100%;
 	background-color: #dcdce4;
 	border: none;
 	padding: 15px;
@@ -22,8 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-	font-size: 26px;
-	text-shadow: 2px 2px 2px #1b1f50;
+	font-size: 1.5em;
+	text-shadow: .2em .2em .2em #1b1f50;
 	line-height: .5em;
 	color: #fff;
 }
@@ -34,18 +34,18 @@ h3 {
 }
 
 header {
-	width: 640px;
+	width: 105%;
 	margin: 0 auto;
 	overflow: hidden;
 	background-color: #fda025;
-	opacity: .75;
+	opacity: .95;
 	border-bottom: 5px solid #a91e22;
 }
 
 nav ul { 
 	opacity: .95;
 	list-style-type: none;
-	padding: 5px;
+	padding: .25em;
 	margin: 0; 
 	overflow: hidden;
 	width: 350px;
@@ -58,15 +58,15 @@ nav li {
 }
 
 nav ul li:first-child {
-	margin-left: 25px;
+	margin-left: 15px;
 }
 
 nav a {
 	text-decoration: none;
 	color: #fff;
 	line-height: 1.5em;
-	font-size: 24px;
-	height: 30px;
+	font-size: 1.25em;
+	height: 1.5em;
 	display: block;
 }
 
@@ -75,15 +75,15 @@ nav a:hover {
 }
 
 #logo {
-	width: 180px;
+	width: 12em;
 	float: right;
-	margin-bottom: 1px;
+	margin-bottom: .2em;
 	background-color: transparent;
 	border: none;
 }
 
 #text {
-	font-size: 12px;
+	font-size: .75em;
 }
 
 #food {
@@ -121,11 +121,11 @@ header h2 {
 
 ol {
 	background-color: #fda025;
-	width: 275px;
+	width: 14em;
 	list-style-type: none;
-	padding: 10px;
+	padding: .75em;
 	line-height: 1.25em;
-	font-size: 18px;
+	font-size: 1.15em;
 	color: #fff;
 	margin: 0 auto; 
 	border: 2px solid #a91e22;
@@ -133,21 +133,21 @@ ol {
 }
 
 form {
-	margin: 25px
+	margin: 2em;
 }
 
 #gallery {
 	background-color: #dcdce4;
 	list-style-type: none;
-	margin: 20px auto;
+	margin: 1em auto;
 	overflow: hidden;
-	padding: 25px;
-	border: 2px solid #a91e22;
+	padding: 1em;
+	border: .2em solid #a91e22;
 }
 
 #gallery li {
 	float: left;
-	margin-left: 25px;
+	margin-left: .5em;
 }
 
 #gallery a {
@@ -169,7 +169,7 @@ form {
 }
 
 footer{
-	font-size: 10px; 
+	font-size: .5em; 
 	text-align: center;
 }
 
