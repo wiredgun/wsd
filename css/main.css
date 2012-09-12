@@ -180,5 +180,21 @@ footer{
 	font-size: 10px; 
 	text-align: center;
 }
+/* Media Queries 
+============================================================= */
 
+/* Tablet portrait to standard 960px (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px){
+		#wrapper {background-color: #eff0f6;}
+}
+
+	@media screen and (min-width: 480px) and (max-width: 767px){
+		#wrapper {background-color: #509cff;}
+}
+
+	@media screen and (max-width: 479px){
+		#wrapper {background-color: #ff7743;}
+		div {
+		min-width: 100%;}
+}
 
