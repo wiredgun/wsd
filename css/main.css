@@ -190,11 +190,15 @@ footer{
 
 	@media screen and (min-width: 480px) and (max-width: 767px){
 		#wrapper {background-color: #509cff;}
+		min-width: 100%;
+		}
 }
 
 	@media screen and (max-width: 479px){
 		#wrapper {background-color: #ff7743;}
 		div {
-		min-width: 100%;}
+		min-width: 100%;
+		max-width: 100%;
+		}
 }
 
