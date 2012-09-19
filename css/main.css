@@ -7,7 +7,16 @@ body {
 	line-height: 22px; 
 	width: 45%; /* 640px; */
 	margin: 0 auto; 
-	padding: 0; 
+	padding-left: 0; 
+	padding-right: 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 50 auto;
+	overflow: hidden;
+	background: #e8d173;
+	border: none;
 }
 
 div {
@@ -29,7 +38,7 @@ h2 {
 }
 
 h3 {
-	font-size: 140%; /* 22px; */
+	font-size: 20px; /* 22px; */
 	color: #8b461c;
 }
 
@@ -73,8 +82,6 @@ nav a {
 nav a:hover {
 	 color: #d0000d
 }
-
-
 
 #logo {
 	width: 28.125%; /* 180px; */
@@ -180,24 +187,32 @@ footer{
 	font-size: 10px; 
 	text-align: center;
 }
+
+
 /* Media Queries 
 ============================================================= */
 
 /* Tablet portrait to standard 960px (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px){
-		#wrapper {background-color: #eff0f6;}
+		#wrapper {background-color: #1b1f50;}
+		nav ul li:first-child {margin-left: 1px;}
+		nav a {font-size: 22px;}
 }
 
+/* Mobile landscape to tablet portrait (devices and browsers) */
 	@media screen and (min-width: 480px) and (max-width: 767px){
 		#wrapper {background-color: #509cff;}
-		min-width: 100%;
-		}
+		#text {-moz-column-count: 1;}
+		nav ul li:first-child {margin-left: 1px;}
+		nav a {font-size: 18px;}
 }
 
+/* Mobile potrait to mobile landscape (devices and browsers) */
 	@media screen and (max-width: 479px){
 		#wrapper {background-color: #ff7743;}
-		div {
-		min-width: 100%;
-		}
+		#text {-moz-column-count: 1;}
+		#img {display: none;}
+		nav ul li:first-child {margin-left: 1px;}
+		nav a {font-size: 16px;}
 }
 
