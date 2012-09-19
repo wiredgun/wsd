@@ -211,7 +211,10 @@ footer{
 	@media screen and (max-width: 479px){
 		#wrapper {background-color: #ff7743;}
 		#text {-moz-column-count: 1;}
-		#img {display: none;}
+		#food {display: none;}
+		#exercise {display: none;}
+		#doc {display: none;}
+		#supps {display: none;}
 		nav ul li:first-child {margin-left: 1px;}
 		nav a {font-size: 16px;}
 }
