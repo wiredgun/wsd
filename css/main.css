@@ -5,7 +5,7 @@ body {
 	font-size: 16px;
 	font: normal; 
 	line-height: 22px; 
-	width: 45%; /* 640px; */
+	width: 55%; /* 640px; */
 	margin: 0 auto; 
 	padding-left: 0; 
 	padding-right: 0;
@@ -197,6 +197,7 @@ footer{
 		#wrapper {background-color: #1b1f50;}
 		nav ul li:first-child {margin-left: 1px;}
 		nav a {font-size: 22px;}
+		body {width: 80%;} /* 640px; */
 }
 
 /* Mobile landscape to tablet portrait (devices and browsers) */
@@ -205,6 +206,7 @@ footer{
 		#text {-moz-column-count: 1;}
 		nav ul li:first-child {margin-left: 1px;}
 		nav a {font-size: 18px;}
+		body {width: 80%;} /* 640px; */
 }
 
 /* Mobile potrait to mobile landscape (devices and browsers) */
@@ -217,5 +219,6 @@ footer{
 		#supps {display: none;}
 		nav ul li:first-child {margin-left: 1px;}
 		nav a {font-size: 16px;}
+		body {width: 80%;} /* 640px; */
 }
 
