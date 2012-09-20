@@ -2,7 +2,7 @@ body {
 	color: #000; 
 	background-color: #e8d173;
 	font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font: normal; 
 	line-height: 22px; 
 	width: 55%; /* 640px; */
@@ -147,6 +147,32 @@ ol {
 	border-radius: 9px;
 }
 
+table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	float: right;
+	margin-top: 43px;
+	margin-right: 15px;
+}
+
+td {
+	border: none;
+	padding: 0.3em;
+	font-family: serif;
+	font-size: 12px;
+}
+
+th {
+	text-align: left;
+	background-color: #a91e22;
+	color: #fff;
+	padding: 0.3em;
+}
+
+.odd {
+	background-color: #e8d173;
+}
+
 form {
 	margin: 3.90625%; /* 25px */
 }
@@ -207,6 +233,7 @@ footer{
 		nav ul li:first-child {margin-left: 1px;}
 		nav a {font-size: 18px;}
 		body {width: 80%;} /* 640px; */
+		ol {font-size: 80%;} /*18px;*/
 }
 
 /* Mobile potrait to mobile landscape (devices and browsers) */
@@ -220,5 +247,7 @@ footer{
 		nav ul li:first-child {margin-left: 1px;}
 		nav a {font-size: 16px;}
 		body {width: 80%;} /* 640px; */
+		ol {font-size: 60%;} /*18px;*/
+
 }
 
