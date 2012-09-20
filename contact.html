@@ -25,6 +25,7 @@
 	</div>
 		<h2><em>The World's Most Authoritative Blood Sugar Factsite</em></h2>
 		</header>
+
 	<table>
 		<tr>
 		<th>Query</th>
@@ -65,12 +66,19 @@
 <div>
 	<h3>Contact Blood Sugar Answers</h3>
 	<form action="MAILTO:rick@swartz.net" method="post" enctype="text/plain"> CONTACT:<br>
+	<label for="name">Name</label>
 	<input type="text" name="name" value="your name" /><br />
-	E-mail:<br />
+	<label for="email">Email</label>
 	<input type="text" name="mail" value="your email" /><br />
+	<select name="subject" id="subject">
+		<option>General Inquiry</option>
+		<option>Suggestion</option>
+		<option>Website Error</option>
+		<option>Complaint</option>
+		<option>Press</option>
 	Comment:<br />
-	<input type="text" name="comment" value="your comment" size="35" />
-	<br /><br />
+	<textarea rows= "10" cols="31"></textarea>
+	<br />
 	<input type="submit" value="Send">
 	<input type="reset" value="Reset">
 	</form><br>
