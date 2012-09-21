@@ -5,7 +5,7 @@ body {
 	font-size: 14px;
 	font: normal; 
 	line-height: 22px; 
-	width: 55%; /* 640px; */
+	width: 60%; /* 640px; */
 	margin: 0 auto; 
 	padding-left: 0; 
 	padding-right: 0;
@@ -135,7 +135,7 @@ header h2 {
 
 ol {
 	background-color: #fda025;
-	width: 42.96875%; /*275px;*/
+	width: 32.96875%; /*275px;*/
 	list-style-type: none;
 	padding: .7636363636364%; /*10px;*/
 	line-height: 125%; /*1.25em;*/
